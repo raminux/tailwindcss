@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "First of all it is essential to install VS Code and the following extensions: - Headwind - Live server - Tailwind css IntelliSense - Alpine.js IntelliSense",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminux/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raminux/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/raminux/tailwindcss#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}

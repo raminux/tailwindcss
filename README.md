@@ -15,4 +15,24 @@ Next, git should be installed:
 $> sudo apt install git
 ```
 
+Now, we are ready to install tailwindcss. It begins by initializing a node project:
+```bash
+$> npm init -y
+```
+Then, install the required libraries:
+```bash
+$> npm install tailwindcss postcss postcss-cli autoprefixer
+```
+Then next command will create two config files named, `tailwind.config.js` and `postcss.config.js`. 
+```bash
+$> npx tailwindcss init -p
+```
+At this stage, we need to create the directory structure:
+```bash
+$> touch tailwind.css
+$> mkdir dist
+$> mkdir dist/css
+$> touch dist/css/styles.css
+$> touch dist/index.html
+```
 
